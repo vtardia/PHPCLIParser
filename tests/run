@@ -1,0 +1,11 @@
+#!/bin/sh
+
+which phpunit > /dev/null
+
+if [ $? -ne 0 ]; then
+	echo "PHPUnit is not installed in your system, get it from http://www.phpunit.de/"
+	exit -1
+fi
+
+echo "Testing CLIParserSuite"
+phpunit --stop-on-failure CLIParserSuite
