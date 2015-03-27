@@ -1,6 +1,8 @@
 PHP Command Line Parser Library
 ===============================
 
+**This project has been superseded by [cli-parser](https://github.com/vtardia/cli-parser) and is now officialy unmaintained.**
+
 ## Description
 
 CLIParser is an helper library that parses the command line arguments of a PHP script detecting short and long options, switches and arguments.
